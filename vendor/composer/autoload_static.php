@@ -22,6 +22,7 @@ class ComposerStaticInit123266f280237b89bdc158695839cc31
 
     public static $classMap = array (
         'SharepointMediaLibrary\\App' => __DIR__ . '/../..' . '/source/php/App.php',
+        'SharepointMediaLibrary\\Settings' => __DIR__ . '/../..' . '/source/php/Components/Settings.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

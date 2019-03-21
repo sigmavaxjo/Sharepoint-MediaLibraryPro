@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'SharepointMediaLibrary\\App' => $baseDir . '/source/php/App.php',
+    'SharepointMediaLibrary\\Settings' => $baseDir . '/source/php/Components/Settings.php',
 );
