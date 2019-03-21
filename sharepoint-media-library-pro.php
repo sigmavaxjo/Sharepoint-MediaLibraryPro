@@ -1,11 +1,9 @@
 <?php
 /*
  * Plugin Name: Sharepoint Media Library Pro
- * Plugin URI: -
  * Description: Integration between Media Library Pro and Office365 Sharepoint.
  * Version: 1.0.0
  * Author: Patrik Björn
- * Author URI: -
  * License: MIT
  * License URI: https://opensource.org/licenses/MIT
  * Text domain: sharepoint-media-library-pro
