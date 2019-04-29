@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<ruleset name="sharepoint-media-library-pro">
+<ruleset name="sharepoint-media-library">
     <rule ref="PSR2"/>
 
+    <file>sharepoint-media-library.php</file>
     <file>source</file>
-    <file>sharepoint-media-library-pro.php</file>
+    <file>templates</file>
 
     <arg name="colors"/>
     <arg name="warning-severity" value="0"/>

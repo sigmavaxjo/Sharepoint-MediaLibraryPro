@@ -1,0 +1,32 @@
+form.sharepoint-media-library-form {
+    &:after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .sharepoint-media-library-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .sml-item {
+            flex: 1 0 30%;
+            font-size: 14px;
+            margin-right: .5rem;
+
+            label {
+                display: block;
+                font-weight: 600;
+                padding-bottom: .5rem;
+            }
+
+        }
+
+    }
+
+    .sml-submit-item {
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,29 @@
+h1 {
+    font-weight: 600;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 20px;
+
+    small {
+        margin-left: 2rem;
+        font-size: 1.25rem;
+        border-bottom: 2px solid #0078d7;
+    }
+
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.border-top {
+    border-top: 1px solid #e4e4e4;
+}
+
+#wpcontent {
+    padding-left: 0;
+    position: relative;
+}
+
+#wpbody {
+    padding: 0 20px;
+}

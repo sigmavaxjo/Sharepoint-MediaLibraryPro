@@ -1,29 +1,21 @@
 <?php
+declare(strict_types=1);
 
 namespace SharepointMediaLibrary;
 
-class Settings
+class Settings extends Helpers\Helper
 {
-
-    public function __construct()
+    /**
+     * Settings view
+     *
+     * @return void
+     */
+    public function pluginSettings() : void
     {
+        if (!$this->isAdminPage()) {
+            return;
+        }
 
-        add_action('admin_menu', [$this, 'adminMenu']);
-
+        require_once SML_TEMPLATE_PATH . 'settings.php';
     }
-
-    public function adminMenu()
-    {
-
-        add_options_page('Sharepoint Media Library', 'Sharepoint Media Library', 'manage_options', 'sharepoint-media-library-pro', [$this, 'pluginSettings']);
-
-    }
-
-    public function pluginSettings()
-    {
-
-
-
-    }
-    
 }

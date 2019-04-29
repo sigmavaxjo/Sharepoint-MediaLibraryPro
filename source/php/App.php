@@ -1,15 +1,13 @@
 <?php
+declare(strict_types=1);
 
 namespace SharepointMediaLibrary;
 
-class App
+final class App
 {
-
     public function __construct()
     {
-
-        new \SharepointMediaLibrary\Settings();
-
+        new General();
+        new Sharepoint();
     }
-    
 }

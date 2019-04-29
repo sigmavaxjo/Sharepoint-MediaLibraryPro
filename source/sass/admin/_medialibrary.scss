@@ -1,0 +1,105 @@
+.sharepoint-media-library--library-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .sharepoint-media-library--library-item {
+        margin: 1rem;
+        flex: 1 0 42%;
+
+        .sharepoint-media-library--item-header {
+            h4 {
+                font-size: 1.5rem;
+                font-weight: 900;
+                margin: 0;
+                color: #0078d7;
+                padding: 2rem 0;
+                margin-left: .5rem;
+                margin-right: .5rem;
+                border-radius: 4px;
+            }
+
+        }
+
+        .sharepoint-media-library--item-content {
+            display: flex;
+            flex-wrap: wrap;
+
+            .sharepoint-media-library--attachment {
+                flex: 1 0 7%;
+                margin-bottom: .5rem;
+                position: relative;
+
+                a {
+                    display: flex;
+                    flex-flow: column;
+                    position: relative;
+                    text-decoration: none;
+                    height: 100%;
+                    margin: .5rem;
+                    border-radius: 4px;
+                    background: #fff;
+                    box-shadow: 0 3px 16px rgba(0, 0, 0, .06);
+                    opacity: .9;
+
+                    * {
+                        transition: .2s ease-out;
+                    }
+
+                    &:hover {
+                        opacity: 1;
+                        box-shadow: 0 3px 16px rgba(0, 0, 0, .1);
+
+                        .sharepoint-media-library--attachment-title p {
+                            background-color: rgba(0, 0, 0, .04);
+                        }
+                    }
+
+                    .sharepoint-media-library--attachment-file {
+                        margin-bottom: .5rem;
+                        padding: 1rem;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            display: block;
+                            max-width: 100%;
+                            max-height: 150px;
+                            margin: 0 auto;
+                        }
+
+                        .sharepoint-media-library-document {
+
+                            span {
+                                display: block;
+                                margin: 0 auto;
+                                color: #444;
+                                text-align: center;
+                                font-size: 48px;
+                                width: 48px;
+                                height: 48px;
+                            }
+                        }
+                    }
+
+                    .sharepoint-media-library--attachment-title {
+                        margin-top: auto;
+
+                        p {
+                            color: #444;
+                            text-align: center;
+                            font-size: 1rem;
+                            font-weight: 600;
+                            background: #fafafa;
+                            border-top: 1px solid #e4e4e4;
+                            border-radius: 0 0 4px 4px;
+                            padding: .5rem 1rem;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

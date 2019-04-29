@@ -1,6 +1,6 @@
 {
-    "name": "sharepoint-media-library-pro",
-    "description": "Integration between Media Library Pro and Office365 Sharepoint.",
+    "name": "sharepoint-media-library",
+    "description": "Integration between Office365 Sharepoint and Wordpress.",
     "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,13 @@
             "email": "patrik.bjorn@sigma.se"
         }
     ],
-    "require": {},
+    "require": {
+        "php-di/php-di": "^6.0",
+        "thybag/php-sharepoint-lists-api": "dev-master",
+        "squizlabs/php_codesniffer": "*",
+        "vgrem/php-spo": "dev-master",
+        "symfony/dotenv": "^4.2"
+    },
     "autoload": {
         "psr-4": {
             "SharepointMediaLibrary\\": "source"

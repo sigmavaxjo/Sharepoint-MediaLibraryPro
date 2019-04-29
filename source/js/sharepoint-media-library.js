@@ -1,0 +1,1 @@
+let SharepointMediaLibrary = SharepointMediaLibrary || {};
